@@ -1,0 +1,22 @@
+{
+  "name": "learning-tailwindcss",
+  "version": "1.0.0",
+  "private": true,
+  "main": "",
+  "scripts": {
+    "serve": "concurrently \"live-server public/\" \"postcss css/tailwind.css -o public/build/tailwind.css --watch\"",
+    "dev": "npm run serve"
+  },
+  "keywords": [],
+  "author": "Alexandra Caulea <alexandra.caulea@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "concurrently": "^5.2.0",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.5.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
